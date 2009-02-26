@@ -1,19 +1,16 @@
 package Imager::Math::Graph;
 
-use warnings;
-use strict;
-use Carp;
+use Mouse;
 use Imager;
 our $VERSION = '0.0.1';
 
-sub new {
-    my $class = shift;
-    return bless {}, $class;
+sub draw_graph {
 }
 
+sub draw_axis {
+}
 
-
-1; # Magic true value required at end of module
+1;    # Magic true value required at end of module
 __END__
 
 =head1 NAME
