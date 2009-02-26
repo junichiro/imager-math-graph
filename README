@@ -1,45 +1,27 @@
-Imager-Math-Graph version 0.0.1
-
-[ REPLACE THIS...
-
-  The README is used to introduce the module and provide instructions on
-  how to install the module, any machine dependencies it may have (for
-  example C compilers and installed libraries) and any other information
-  that should be understood before the module is installed.
-
-  A README file is required for CPAN modules since CPAN extracts the
-  README file from a module distribution so that people browsing the
-  archive can use it get an idea of the modules uses. It is usually a
-  good idea to provide version information here so that people can
-  decide whether fixes for the module are worth downloading.
-]
-
+This is Perl module Imager::Math::Graph.
 
 INSTALLATION
 
-To install this module, run the following commands:
+Imager::Math::Graph installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
 
-	perl Makefile.PL
-	make
-	make test
-	make install
+    % cpan Imager::Math::Graph
 
-Alternatively, to install with Module::Build, you can use the following commands:
+Download it, unpack it, then build it as per the usual:
 
-	perl Build.PL
-	./Build
-	./Build test
-	./Build install
+    % perl Makefile.PL
+    % make && make test
 
+Then install it:
 
-DEPENDENCIES
+    % make install
 
-None.
+DOCUMENTATION
 
+Imager::Math::Graph documentation is available as in POD. So you can do:
 
-COPYRIGHT AND LICENCE
+    % perldoc Imager::Math::Graph
 
-Copyright (C) 2009, Junichiro Tobe
+to read the documentation online with your favorite pager.
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+Junichiro Tobe

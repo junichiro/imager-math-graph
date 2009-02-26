@@ -1,17 +1,13 @@
-use strict;
-use warnings;
-use ExtUtils::MakeMaker;
+use inc::Module::Install;
+name 'Imager-Math-Graph';
+all_from 'lib/Imager/Math/Graph.pm';
 
-WriteMakefile(
-    NAME                => 'Imager::Math::Graph',
-    AUTHOR              => 'Junichiro Tobe <junichiro.tobe@gmail.com>',
-    VERSION_FROM        => 'lib/Imager/Math/Graph.pm',
-    ABSTRACT_FROM       => 'lib/Imager/Math/Graph.pm',
-    PL_FILES            => {},
-    PREREQ_PM => {
-        'Test::More' => 0,
-        'version'    => 0,
-    },
-    dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean               => { FILES => 'Imager-Math-Graph-*' },
-);
+# requires '';
+
+tests 't/*.t';
+author_tests 'xt';
+
+build_requires 'Test::More';
+use_test_base;
+auto_include;
+WriteAll;

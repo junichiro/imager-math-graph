@@ -1,5 +1,4 @@
-Revision history for Imager-Math-Graph
+Revision history for Perl extension Imager::Math::Graph
 
-0.0.1  Thu Feb 26 09:21:20 2009
-       Initial release.
-
+0.01    Thu Feb 26 11:20:10 2009
+        - original version
