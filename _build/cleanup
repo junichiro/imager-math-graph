@@ -1,0 +1,5 @@
+do{ my $x = {
+       'Imager-Math-Graph-*' => 1,
+       'blib' => 1
+     };
+$x; }
